@@ -32,12 +32,6 @@ def simpleGraphInfo(wl):
 
 graph = simpleGraphInfo(wl)
 
-def edgeCount(dic):
-    count = 0
-    for key in dic:
-        count+=len(dic[key])
-    return count//2
-
 def degreeList(dic):
     ls = [0]
     for k in dic:
